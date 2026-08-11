@@ -61,17 +61,18 @@ a {
     font-family: "MG-B";
     src: url("/fonts/MG-B.woff2");
   }
-@font-face {
+/* @font-face {
     font-family: "ABCMarfaMono-Light-Trial";
     src: url("/fonts/ABCMarfaMono-Light-Trial.woff2");
-}
+} */
 
 
 .test_text {
-    font-family: ABCMarfaMono-Light-Trial;
-    letter-spacing: 0rem;
+    font-family: MG-B;
+    /* letter-spacing: 0rem; */
     /* grid-column: 1 / 25; */
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    font-size: 3rem;
     /* margin-bottom: 1.8rem; */
 }
 
