@@ -22,21 +22,21 @@ body {
 
   /* Text highlighting */
 ::selection {
-    background: rgb(253, 219, 156);
+    background: rgb(255, 255, 255);
   }
   /* Text highlighting Firefox */
 ::-moz-selection {
-    background: rgb(253, 219, 156);
+    background: rgb(255, 255, 255);
   }
-
 
 /* Global font size */
 html {
     font-family: "MG-B";
     font-size: 10px;
-    letter-spacing: .14rem;
+    /* letter-spacing: -.02rem; */
     color: rgb(0, 0, 0);
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(188, 188, 188);
+    line-height: 1.4rem;
 }
 
 /* Formats lists and menu*/
@@ -50,7 +50,6 @@ ul a {
 a {
     text-decoration: none;
     color: black;
-    transition: letter-spacing 0.5s;
 }
 
 /* ******************************************** */
@@ -61,26 +60,39 @@ a {
     font-family: "MG-B";
     src: url("/fonts/MG-B.woff2");
   }
-/* @font-face {
-    font-family: "ABCMarfaMono-Light-Trial";
-    src: url("/fonts/ABCMarfaMono-Light-Trial.woff2");
-} */
 
+.test_wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
 
-.test_text {
-    font-family: MG-B;
-    /* letter-spacing: 0rem; */
-    /* grid-column: 1 / 25; */
-    /* font-size: 1.1rem; */
-    font-size: 3rem;
-    /* margin-bottom: 1.8rem; */
+.test_header {
+    grid-column: 1 / 8;
+    margin-top: 5rem;
+    font-size: 1.3rem;
+}
+
+.test_text_1 {
+    grid-column: 1/ 8;
+    margin-top: 5rem;
+    font-size: 1.1rem;
 }
 
 
-.wrapper_menu {
-    display: grid;
-    grid-template-columns: repeat(24, 1fr);
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-top: -1.9rem;
+/* ******************************************** */
+/* ******************************************** */
+/* ******************************************** */
+/* ******************************************** */
+/* MEDIA QUERIES */
+
+@media (width < 800px) {
+
+    .test_text_1 {
+        /* justify-content: right; */
+        /* margin-top: 2rem; */
+        grid-column: 1 / 12;
+        /* background-color: brown; */
+    }
 }
