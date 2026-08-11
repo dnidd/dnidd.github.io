@@ -1,0 +1,76 @@
+/*
+************* Reset ************
+*/
+/* border box includes content, padding, and border to element*/
+/* Padding and margin set to 0 in viewport*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* Text highlighting */
+::selection {
+    background: rgb(253, 219, 156);
+  }
+  /* Text highlighting Firefox */
+::-moz-selection {
+    background: rgb(253, 219, 156);
+  }
+
+
+/* Global font size */
+html {
+    font-family: "ABCMarfa-Light-Trial";
+    font-size: 10px;
+    letter-spacing: .14rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 230, 230);
+}
+
+/* Formats lists and menu*/
+ul, ol {
+    list-style-type: none
+}
+ul a {
+    text-decoration: none;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+    transition: letter-spacing 0.5s;
+}
+
+/* ******************************************** */
+/* ******************************************** */
+/* TYPEFACES */
+
+@font-face {
+    font-family: "ABCMarfa-Light-Trial";
+    src: url("/fonts/ABCMarfa-Light-Trial.woff2");
+  }
+@font-face {
+    font-family: "ABCMarfaMono-Light-Trial";
+    src: url("/fonts/ABCMarfaMono-Light-Trial.woff2");
+}
+
+
+.wrapper_menu {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: -1.9rem;
+}
