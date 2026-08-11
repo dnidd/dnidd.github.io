@@ -32,7 +32,7 @@ body {
 
 /* Global font size */
 html {
-    font-family: "ABCMarfa-Light-Trial";
+    font-family: "MG-B";
     font-size: 10px;
     letter-spacing: .14rem;
     color: rgb(0, 0, 0);
@@ -64,6 +64,15 @@ a {
 @font-face {
     font-family: "ABCMarfaMono-Light-Trial";
     src: url("/fonts/ABCMarfaMono-Light-Trial.woff2");
+}
+
+
+.test_text {
+    font-family: ABCMarfaMono-Light-Trial;
+    letter-spacing: 0rem;
+    /* grid-column: 1 / 25; */
+    font-size: 1.1rem;
+    /* margin-bottom: 1.8rem; */
 }
 
 
