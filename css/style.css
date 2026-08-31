@@ -31,7 +31,8 @@ body {
 
 /* Global font size */
 html {
-    font-family: "MG-B";
+    font-family: "routed-gothic.ttf";
+    /* font-family: "MG-B"; */
     font-size: 10px;
     /* letter-spacing: -.02rem; */
     color: rgb(0, 0, 0);
@@ -56,9 +57,14 @@ a {
 /* ******************************************** */
 /* TYPEFACES */
 
-@font-face {
+/* @font-face {
     font-family: "MG-B";
     src: url("/fonts/MG-B.woff2");
+  } */
+
+  @font-face {
+    font-family: "routed-gothic.ttf";
+    src: url("/fonts/routed-gothic/routed-gothic.ttf");
   }
 
 .test_wrapper {
@@ -68,16 +74,17 @@ a {
     margin-top: 1.5rem;
 }
 
-.test_header {
+.test_header_routed {
     grid-column: 1 / 8;
     margin-top: 5rem;
     font-size: 1.3rem;
 }
 
-.test_text_1 {
+.test_text_routed {
     grid-column: 1/ 8;
     margin-top: 5rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
 }
 
 
