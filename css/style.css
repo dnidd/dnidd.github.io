@@ -27,8 +27,6 @@ body {
   /* Text highlighting Firefox */
 ::-moz-selection {
     background: rgb(255, 255, 255);
-
-
   }
 
 /* Global font size */
@@ -61,7 +59,7 @@ a {
 /* TYPEFACES */
 
   @font-face {
-  font-family: "Areal";
+  font-family: "ABCArealVariable.ttf";
   src: url("/fonts/ABCArealVariable.ttf") format("ttf");
   font-weight: 100 900;
   font-style: normal;
