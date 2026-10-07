@@ -27,16 +27,21 @@ body {
   /* Text highlighting Firefox */
 ::-moz-selection {
     background: rgb(255, 255, 255);
+
+
   }
 
 /* Global font size */
 html {
-    font-family: "routed-gothic.ttf";
+    /* font-family: "routed-gothic.ttf"; */
+    font-family: "ABCArealVariable";
     font-size: 10px;
     color: rgb(0, 0, 0);
     background-color: rgb(188, 188, 188);
     line-height: 1.4rem;
 }
+
+
 
 /* Formats lists and menu*/
 ul, ol {
@@ -56,9 +61,17 @@ a {
 /* TYPEFACES */
 
   @font-face {
+  font-family: "Areal";
+  src: url("/fonts/ABCArealVariable.ttf") format("ttf");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+  /* @font-face {
     font-family: "routed-gothic.ttf";
     src: url("/fonts/routed-gothic/routed-gothic.ttf");
-  }
+  } */
 
 .test_wrapper {
     display: grid;
@@ -80,6 +93,10 @@ a {
     line-height: 1.7rem;
 }
 
+/*
+Hard refresh som css är cashad
+Cmd + Shift + R 
+*/
 
 /* ******************************************** */
 /* ******************************************** */
