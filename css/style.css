@@ -59,22 +59,22 @@ a {
 /* TYPEFACES */
 
   @font-face {
-  font-family: "ABCArealVariable.ttf";
-  src: url("/fonts/areal/ABCArealVariable.ttf");
+  font-family: "ABCArealVariable.woff2";
+  src: url("/fonts/areal/ABCArealVariable.woff2");
   font-weight: 100 900;
   font-style: normal;
 }
 
   @font-face {
-  font-family: "ABCArealMonoVariable.ttf";
-  src: url("/fonts/areal/ABCArealMonoVariable.ttf");
+  font-family: "ABCArealMonoVariable.woff2";
+  src: url("/fonts/areal/ABCArealMonoVariable.woff2");
   font-weight: 100 900;
   font-style: normal;
 }
 
   @font-face {
-  font-family: "ABCArealSemiMonoVariable.ttf";
-  src: url("/fonts/areal/ABCArealSemiMonoVariable.ttf");
+  font-family: "ABCArealSemiMonoVariable.woff2";
+  src: url("/fonts/areal/ABCArealSemiMonoVariable.woff2");
   font-weight: 100 900;
   font-style: normal;
 }
@@ -102,7 +102,6 @@ a {
     font-weight: 400;
     letter-spacing: .12rem;
 }
-
 
 /*
 Hard refresh som css är cashad
