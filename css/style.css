@@ -79,6 +79,26 @@ a {
   font-style: normal;
 }
 
+#datetime {
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: 'ABCArealMonoVariable.woff2';
+    color: rgb(0, 0, 0);
+    letter-spacing: .5rem;
+}
+
+#year {
+    font-weight: 100;
+}
+
+#date {
+    font-weight: 100;
+}
+#time {
+    font-weight: 100;
+    font-variant-numeric: tabular-nums;
+}
+
 
 .test_wrapper {
     display: grid;
@@ -107,8 +127,12 @@ a {
 }
 
 /*
-Hard refresh som css är cashad
-Cmd + Shift + R 
+  *
+    *
+     Hard refresh som css är cashad
+     Cmd + Shift + R 
+    *
+   *
 */
 
 /* ******************************************** */
